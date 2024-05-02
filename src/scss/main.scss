@@ -1,1 +1,35 @@
 @import "reset";
+@import "_variables";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.head-1{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+  border-bottom:1px solid $cinza3;
+}
+
+.head-2{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.products{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+    .product-container{
+      padding: 70px;
+    }
+}
+
+.product-container{
+  text-align: center;
+  
+    p:first-of-type{
+      text-transform: uppercase;
+    }
+}
